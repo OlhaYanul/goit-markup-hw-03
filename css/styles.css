@@ -26,10 +26,6 @@ a {
     text-decoration: none;
 }
 
-.footer-container .link-main {
-    display: inline-block;
-}
-
 .logo-web {
     font-weight: 700;
     font-size: 18px;
@@ -362,4 +358,12 @@ img {
 .footer-container {
     flex-direction: column;
     padding-left: 156px;
+}
+
+.box-footer .container {
+    display: block;
+}
+
+.footer-container .link-main {
+    display: inline-block;
 }
