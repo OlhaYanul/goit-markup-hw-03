@@ -247,7 +247,6 @@ img {
 }
 
 .box-header .container {
-    max-width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -264,6 +263,11 @@ img {
 
 .header-container-nav .link-main {
     margin-right: 76px;
+    margin-left: 76px;
+}
+
+.header-container-adrs {
+    margin-left: 332px;
 }
 
 .nav-cont,
@@ -271,7 +275,6 @@ img {
     display: flex;
     gap: 40px;
 }
-
 
 /*first section*/
 .main-container {
