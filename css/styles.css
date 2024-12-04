@@ -26,6 +26,10 @@ a {
     text-decoration: none;
 }
 
+.footer-container .link-main {
+    display: inline-block;
+}
+
 .logo-web {
     font-weight: 700;
     font-size: 18px;
@@ -148,7 +152,7 @@ a {
     padding: 0;
     white-space: nowrap;
     clip-path: inset(100%);
-    clip: react(0 0 0 0);
+    clip: rect(0 0 0 0);
     overflow: hidden;
 }
 
