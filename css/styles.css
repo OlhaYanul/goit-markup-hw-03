@@ -24,8 +24,6 @@ a {
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
-    display: inline-block;
-    margin-bottom: 16px;
 }
 
 .logo-web {
@@ -184,7 +182,7 @@ a {
     padding: 100px 0;
 }
 
-.box-footer .link {
+.box-footer .link-main {
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -285,7 +283,6 @@ img {
     gap: 24px;
 }
 
-.team-element {}
 
 
 
