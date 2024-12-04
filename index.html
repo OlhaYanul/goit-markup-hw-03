@@ -10,145 +10,195 @@
         href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet" />
     <title>WebStudio:Effective Solutions for Your Business</title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" />
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
 <body>
 
     <header class="box-header">
-        <nav>
+        <div class="container header-container">
             <a href="./index.html" class="link-main">Web<span class="logo-web">Studio</span></a>
-            <ul>
-                <li>
-                    <a href="./index.html" class="link">Studio</a>
-                </li>
-                <li>
-                    <a href="" class="link">Portfolio</a>
-                </li>
-                <li>
-                    <a href="" class="link">Contacts</a>
-                </li>
-            </ul>
-        </nav>
-        <address class="box-contacts">
-            <ul>
-                <li>
-                    <a href="mailto:info@devstudio.com" class="contacts">info@devstudio.com</a>
-                </li>
-                <li>
-                    <a href="tel:+110001111111" class="contacts">+11 (000) 111-11-11</a>
-                </li>
-            </ul>
-        </address>
+            <nav>
+                <ul class="container nav-cont">
+                    <li>
+                        <a href="./index.html" class="link">Studio</a>
+                    </li>
+                    <li>
+                        <a href="" class="link">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="" class="link">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+            <address class="box-contacts">
+                <ul class="container contacts-cont">
+                    <li>
+                        <a href="mailto:info@devstudio.com" class="contacts">info@devstudio.com</a>
+                    </li>
+                    <li>
+                        <a href="tel:+110001111111" class="contacts">+11 (000) 111-11-11</a>
+                    </li>
+                </ul>
+            </address>
+        </div>
     </header>
 
     <main>
         <section class="main-box">
-            <h1 class="main-title">Effective Solutions for Your Business</h1>
-            <button type="button" class="click-main-box">Order Service</button>
+            <div class="container main-container">
+                <h1 class="main-title">Effective Solutions <br />
+                    for Your Business</h1>
+                <button type="button" class="click-main-box">Order Service</button>
+            </div>
         </section>
 
         <section class="submain-box">
             <h2 class="submain-title">Our Philosophy</h2>
             <ul>
-                <li>
-                    <h3 class="prg-title">Strategy</h3>
-                    <p class="main-text">Our goal is to identify the business problem to walk away with the perfect and
-                        creative solution.
-                    </p>
-                </li>
-                <li>
-                    <h3 class="prg-title">Punctuality</h3>
-                    <p class="main-text">Bring the key message to the brand's audience for the best price within the
-                        shortest possible
-                        time.</p>
-                </li>
-                <li>
-                    <h3 class="prg-title">Diligence</h3>
-                    <p class="main-text">Research and confirm brands that present the strongest digital growth
-                        opportunities and minimize
-                        risk.</p>
-                </li>
-                <li>
-                    <h3 class="prg-title">Technologies</h3>
-                    <p class="main-text">Design practice focused on digital experiences. We bring forth a deep passion
-                        for
-                        problem-solving.</p>
-                </li>
+                <div class="container submain-container">
+                    <li>
+                        <div class="small-container">
+                            <h3 class="prg-title">Strategy</h3>
+                            <p class="main-text">Our goal is to identify the business problem to walk away with the
+                                perfect
+                                and
+                                creative solution.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="small-container">
+                            <h3 class="prg-title">Punctuality</h3>
+                            <p class="main-text">Bring the key message to the brand's audience for the best price within
+                                the
+                                shortest possible
+                                time.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="small-container">
+                            <h3 class="prg-title">Diligence</h3>
+                            <p class="main-text">Research and confirm brands that present the strongest digital growth
+                                opportunities and minimize
+                                risk.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="small-container">
+                            <h3 class="prg-title">Technologies</h3>
+                            <p class="main-text">Design practice focused on digital experiences. We bring forth a deep
+                                passion for problem-solving.
+                            </p>
+                        </div>
+                    </li>
+                </div>
             </ul>
         </section>
 
         <section class="team-box">
             <h2 class="submain-title">Our Team</h2>
             <ul>
-                <li class="boxbox">
-                    <img src="./images/img-3.jpg" alt="Mark Guerrero" width="264" height="260" />
-                    <h3 class="prg-title">Mark Guerrero</h3>
-                    <p class="main-text">Product Designer</p>
-                </li>
-                <li class="boxbox">
-                    <img src="./images/img-2.jpg" alt="Tom Ford" width="264" height="260" />
-                    <h3 class="prg-title">Tom Ford</h3>
-                    <p class="main-text">Frontend Developer</p>
-                </li>
-                <li class="boxbox">
-                    <img src="./images/img-1.jpg" alt="Camila Garcia" width="264" height="260" />
-                    <h3 class="prg-title">Camila Garcia</h3>
-                    <p class="main-text">Marketing</p>
-                </li>
-                <li class="boxbox">
-                    <img src="./images/img.jpg" alt="Daniel Wilson" width="264" height="260" />
-                    <h3 class="prg-title">Daniel Wilson</h3>
-                    <p class="main-text">UI Designer</p>
-                </li>
+                <div class="container team-container">
+                    <li class="boxbox">
+                        <img src="./images/img-3.jpg" alt="Mark Guerrero" width="264" height="260" />
+                        <div class="small-container team">
+                            <h3 class="prg-title">Mark Guerrero</h3>
+                            <p class="main-text">Product Designer</p>
+                        </div>
+                    </li>
+                    <li class="boxbox">
+                        <img src="./images/img-2.jpg" alt="Tom Ford" width="264" height="260" />
+                        <div class="small-container team">
+                            <h3 class="prg-title">Tom Ford</h3>
+                            <p class="main-text">Frontend Developer</p>
+                        </div>
+                    </li>
+                    <li class="boxbox">
+                        <img src="./images/img-1.jpg" alt="Camila Garcia" width="264" height="260" />
+                        <div class="small-container team">
+                            <h3 class="prg-title">Camila Garcia</h3>
+                            <p class="main-text">Marketing</p>
+                        </div>
+                    </li>
+                    <li class="boxbox">
+                        <img src="./images/img.jpg" alt="Daniel Wilson" width="264" height="260" />
+                        <div class="small-container team">
+                            <h3 class="prg-title">Daniel Wilson</h3>
+                            <p class="main-text">UI Designer</p>
+                        </div>
+                    </li>
+                </div>
             </ul>
+            </div>
         </section>
 
         <section class="portfolio-box">
             <h2 class="submain-title">Our Portfolio</h2>
             <ul>
-                <li class="boxbox">
-                    <img src="./images/2img-5.jpg" alt="Banking App" width="360" height="300" />
-                    <h3 class="prg-title">Banking App</h3>
-                    <p class="main-text">App</p>
-                </li>
-                <li class="boxbox">
-                    <img src="./images/2img-4.jpg" alt="Cashless Payment" width="360" height="300" />
-                    <h3 class="prg-title">Cashless Payment</h3>
-                    <p class="main-text">Marketing</p>
-                </li>
-                <li class="boxbox">
-                    <img src="./images/2img-3.jpg" alt="Meditation App" width="360" height="300" />
-                    <h3 class="prg-title">Meditation App</h3>
-                    <p class="main-text">App</p>
-                </li>
-                <li class="boxbox">
-                    <img src="./images/2img-2.jpg" alt="Taxi Service" width="360" height="300" />
-                    <h3 class="prg-title">Taxi Service</h3>
-                    <p class="main-text">Marketing</p>
-                </li>
-                <li class="boxbox">
-                    <img src="./images/2img-1.jpg" alt="Screen Illustrations" width="360" height="300" />
-                    <h3 class="prg-title">Screen Illustrations</h3>
-                    <p class="main-text">Design</p>
-                </li>
-                <li class="boxbox">
-                    <img src="./images/2img.jpg" alt="Online Courses" width="360" height="300" />
-                    <h3 class="prg-title">Online Courses</h3>
-                    <p class="main-text">Marketing</p>
-                </li>
+                <div class="container portfolio-container">
+                    <li class="boxbox">
+                        <img src="./images/2img-5.jpg" alt="Banking App" width="360" height="300" />
+                        <div class="small-container portf">
+                            <h3 class="prg-title">Banking App</h3>
+                            <p class="main-text">App</p>
+                        </div>
+                    </li>
+                    <li class="boxbox">
+                        <img src="./images/2img-4.jpg" alt="Cashless Payment" width="360" height="300" />
+                        <div class="small-container portf">
+                            <h3 class="prg-title">Cashless Payment</h3>
+                            <p class="main-text">Marketing</p>
+                        </div>
+                    </li>
+                    <li class="boxbox">
+                        <img src="./images/2img-3.jpg" alt="Meditation App" width="360" height="300" />
+                        <div class="small-container portf">
+                            <h3 class="prg-title">Meditation App</h3>
+                            <p class="main-text">App</p>
+                        </div>
+                    </li>
+                    <li class="boxbox">
+                        <img src="./images/2img-2.jpg" alt="Taxi Service" width="360" height="300" />
+                        <div class="small-container portf">
+                            <h3 class="prg-title">Taxi Service</h3>
+                            <p class="main-text">Marketing</p>
+                        </div>
+                    </li>
+                    <li class="boxbox">
+                        <img src="./images/2img-1.jpg" alt="Screen Illustrations" width="360" height="300" />
+                        <div class="small-container portf">
+                            <h3 class="prg-title">Screen Illustrations</h3>
+                            <p class="main-text">Design</p>
+                        </div>
+                    </li>
+                    <li class="boxbox">
+                        <img src="./images/2img.jpg" alt="Online Courses" width="360" height="300" />
+                        <div class="small-container portf">
+                            <h3 class="prg-title">Online Courses</h3>
+                            <p class="main-text">Marketing</p>
+                        </div>
+                    </li>
+                </div>
             </ul>
-
-
+            </div>
         </section>
-
 
     </main>
 
     <footer class="box-footer">
-        <a href="./index.html" class="link-main">Web<span class="logo-web">Studio</span></a>
-        <p class="main-text">Increase the flow of customers and sales for your business with digital marketing & growth
-            solutions.</p>
+        <div class="container footer-container">
+            <a href="./index.html" class="link-main">Web<span class="logo-web">Studio</span></a>
+            <p class="main-text">Increase the flow of customers and <br /> sales for your business with digital <br />
+                marketing &
+                growth
+                solutions.
+            </p>
+        </div>
     </footer>
 
 </body>

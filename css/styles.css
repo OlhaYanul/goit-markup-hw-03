@@ -4,6 +4,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     background-color: #FFFFFF;
+    margin: 0;
 }
 
 ul {
@@ -90,6 +91,14 @@ a {
     letter-spacing: 0.04em;
     color: #fff;
     background: #4d5ae5;
+
+    /* HW3 */
+    border-radius: 4px;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #4d5ae5;
 }
 
 .click-main-box:hover,
@@ -118,6 +127,23 @@ a {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
+
+    /* HW3 */
+    padding-top: 120px;
+    padding-bottom: 72px;
+}
+
+.submain-box .submain-title {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: react(0 0 0 0);
+    overflow: hidden;
 }
 
 .prg-title {
@@ -160,4 +186,120 @@ a {
 
 .box-footer p {
     color: #f4f4fd;
+}
+
+/* hw3 */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+    display: flex;
+    padding-bottom: 120px;
+}
+
+.box-header .header-container {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 156px;
+    padding-right: 156px;
+    justify-content: space-between;
+}
+
+.nav-cont,
+.contacts-cont {
+    gap: 40px;
+}
+
+.main-container {
+    flex-direction: column;
+    padding-top: 188px;
+    padding-bottom: 188px;
+    row-gap: 48px;
+    align-items: center;
+}
+
+.submain-container {
+    justify-content: center;
+    gap: 24px;
+    width: calc ((100% - 72px) / 4);
+    padding-top: 120px;
+    padding-left: 156px;
+    padding-right: 156px;
+}
+
+.small-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.team-container {
+    justify-content: center;
+    gap: 24px;
+    width: calc ((100% - 72px) / 4);
+    padding-right: 156px;
+    padding-left: 156px;
+}
+
+.team {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.portfolio-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    row-gap: 48px;
+    column-gap: 24px;
+    width: calc ((100% - 48px) / 3);
+    padding-right: 156px;
+    padding-left: 156px;
+}
+
+.portfolio-box .boxbox {
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
+}
+
+.portf {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-left: 16px;
+}
+
+.footer-container {
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 156px;
+    gap: 16px;
 }
