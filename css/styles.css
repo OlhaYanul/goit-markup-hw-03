@@ -243,11 +243,13 @@ img {
 /*header section*/
 .box-header {
     border-bottom: 1px solid #e7e9fc;
+    padding: 24px 0;
 }
 
 .box-header .container {
     max-width: 1158px;
-    padding: 24px 0;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 .header-container-nav {
